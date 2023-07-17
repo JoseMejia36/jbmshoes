@@ -1,0 +1,57 @@
+/* My first css file */
+
+html{
+    background-color: rosybrown;
+}
+header h1{
+    color: red;
+    text-align: center;
+    font-family: condor, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+}
+footer{
+    color:red;
+    text-align: center;
+    font-family: condor, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+footer div a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 30px;
+    padding: 60px;
+}
+footer div a:hover{
+    color:red;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-family: condor, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    position:relative; 
+    top: 130px; 
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    font-family: condor, sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+    padding: 60px;
+}
+nav ul li a:hover{
+    color:red;
+}
